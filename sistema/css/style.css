@@ -1,0 +1,69 @@
+.chat-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    height: 400px;
+}
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.message strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+.message p {
+    margin: 0;
+}
+.message .time {
+    font-size: 0.8em;
+    color: #666;
+    text-align: right;
+}
+.list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.list-group {
+    max-height: calc(3 * 50px); /* Ajusta 50px al tamaño aproximado de cada elemento de la lista */
+    overflow-y: auto;
+}
+.list-group-item {
+    height: 50px; /* Ajusta la altura al tamaño deseado de cada elemento de la lista */
+}
+.search-container {
+        position: relative;
+        width: fit-content;
+    }
+    .search-input {
+        width: 300px; /* Ajusta el tamaño del campo de búsqueda según sea necesario */
+        padding-right: 60px; /* Espacio para el icono de búsqueda */
+    }
+    .search-button, .reset-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    .search-button {
+        right: 40px;
+        color: #007bff; 
+    }
+    .reset-button {
+        right: 10px;
+        color: red; 
+    }
+    .search-button:hover {
+        color: #0056b3; 
+    }
+    .reset-button:hover {
+        color: darkred; 
+    }

@@ -1,0 +1,14 @@
+{
+    "name": "adminsena/alliance",
+    "description": "Proyecto Alliance para SENA",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Juan Camilo",
+            "email": "juancamilo@kreaftware.com"
+        }
+    ]
+}

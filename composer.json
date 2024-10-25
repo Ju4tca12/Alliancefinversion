@@ -1,0 +1,9 @@
+{
+    "require": {
+        "dompdf/dompdf": "^3.0",
+        "setasign/fpdi-fpdf": "^2.3",
+        "phpoffice/phpspreadsheet": "^2.2",
+        "phpmailer/phpmailer": "^6.9",
+        "setasign/fpdi": "^2.6"
+    }
+}
